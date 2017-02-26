@@ -25,9 +25,9 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
         compile 'com.android.support:appcompat-v7:25.1.0'
         compile 'com.android.support:design:25.1.0'
-        compile project ( ' : gvr-android-sdk/libraries : common' )
-        compile project ( ': gvr-android-sdk/libraries : commonwidget' )
-        compile project ( ' : gvr-android-sdk/libraries : panowidget' )
+       //compile project ( ' : gvr-android-sdk/libraries : common' )
+        //compile project ( ': gvr-android-sdk/libraries : commonwidget' )
+        //compile project ( ' : gvr-android-sdk/libraries : panowidget' )
     })
     testCompile 'junit:junit:4.12'
 }
